@@ -1,10 +1,10 @@
 import "./App.css";
-// https://api.adviceslip.com
+import { Quote } from "./components/Quote";
 
 function App() {
   return (
-    <main>
-      <h1>hello world</h1>
+    <main className="main-container">
+      <Quote />
     </main>
   );
 }
